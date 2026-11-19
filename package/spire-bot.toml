@@ -13,10 +13,11 @@ seed = ""
 # "0": the plain three lines instead. F7 in the game switches between the two.
 viz = "1"
 
-# Search in elite and boss fights: when the bot is unsure, it tries its best few options on 16 copies of the fight
-# (the cards still to come drawn again, never the real ones) and plays the one that leaves it best off on average.
-# It thinks a few seconds at such a step. "0": the network alone everywhere.
-search = "1"
+# Search in elite and boss fights, off by default: "0" is the network alone everywhere (as in the published real-game
+# results). "1" plays stronger: when the bot is unsure, it tries its best few options on 16 copies of the fight (the
+# cards still to come drawn again, never the real ones) and plays the one that leaves it best off on average. It
+# thinks a few seconds at such a step.
+search = "0"
 # How a copy is judged at the fight's end: "value" (the network's own estimate of the run from there) or "ledger"
 # (HP, potions, gold and max HP at fixed prices per act).
 search_score = "value"

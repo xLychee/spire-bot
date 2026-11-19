@@ -30,7 +30,8 @@ about the run as a whole.
 Ascension 20 is the game's hardest difficulty, and the Heart is its true final boss. In the real game the bot killed
 the Heart in **65 of 220 first plays (29.5%)**, or **65 of the 215 runs that finished (30.2%)**. That was measured on
 a Mac with the SuperFastMode mod (it speeds up the game's animations), with an earlier build of this package and the same
-model weights, before the search in elite and boss fights was added; `MODEL_CARD.md` has the details.
+model weights, before the search in elite and boss fights was added. Since version 0.1.1 the package plays that way
+by default too (search off); `MODEL_CARD.md` has the details.
 
 <p align="center">
   <img src="docs/images/climb.svg" alt="Runs still going at each floor: 215 at the start, big drops at the act bosses, 65 Heart kills at the end" width="100%">
@@ -62,9 +63,10 @@ flowchart LR
   actions. It builds the network's input from what the game reports, asks the model for a score for every legal
   action, and sends the chosen command back to the game.
 - The model (`model.onnx`, downloaded separately from https://huggingface.co/xlychee/spire-bot) only sees what a
-  player sees in the position the game reports. In elite and boss fights, when it is unsure, the bridge tries its best
-  few options on copies of the fight in which the cards still to come are drawn again (never the real ones) and plays
-  the one that does best on average; `search = "0"` in `spire-bot.toml` turns this off. The bridge itself also reads two things in the game's folder: the game's autosave, to
+  player sees in the position the game reports. In elite and boss fights the bridge can also search: when the model is
+  unsure, it tries its best few options on copies of the fight in which the cards still to come are drawn again (never
+  the real ones) and plays the one that does best on average. The search is off by default; `search = "1"` in
+  `spire-bot.toml` turns it on for stronger play. The bridge itself also reads two things in the game's folder: the game's autosave, to
   get back in step when the simulator and the game disagree, and the profile's unlock and language settings.
   Nothing is sent anywhere. When two options score the same (within a small tolerance), a fixed tie rule takes
   the first, so every computer chooses the same.

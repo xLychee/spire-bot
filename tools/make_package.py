@@ -29,7 +29,7 @@ def main():
     ap.add_argument("--python", required=True)
     ap.add_argument("--jar", default=str(ROOT / "mod/build/spirebot.jar"))
     ap.add_argument("--out", required=True)
-    ap.add_argument("--version", default="0.1.0")
+    ap.add_argument("--version", default="0.1.1")
     ap.add_argument("--no-scan", action="store_true", help="development only: build even if the content scan fails")
     a = ap.parse_args()
     win = a.platform == "win-x64"

@@ -11,9 +11,10 @@ the Spire Bot package loads (`models/model.onnx`).
   shops, rest sites and the path on the map. It plays one character (Ironclad) and was made for Ascension 20.
 - **How it is used**: by the Spire Bot bridge, which takes the option with the highest score (options within 0.0001
   of the best count as tied and the first of them is taken, so that every computer chooses the same). In elite and
-  boss fights, when the model is unsure, the bridge also tries its best few options on copies of the fight (the cards
-  still to come drawn again) and plays the one that leaves the model best off on average (`search` in
-  `spire-bot.toml`; `"0"` turns it off).
+  boss fights the bridge can also search: when the model is unsure, it tries its best few options on copies of the
+  fight (the cards still to come drawn again) and plays the one that leaves the model best off on average. The search
+  is off by default (`search = "0"` in `spire-bot.toml`: the network alone, as in the results below); `search = "1"`
+  turns it on for stronger play.
 
 ## Results
 
@@ -29,15 +30,15 @@ start of the seed.
   Every win reached floor 57 (the Heart's death).
 - **Runs that did not finish (5 of 220)**: 4 stopped part-way because the bridge lost track of the game (the causes
   found have been fixed since) and 1 crashed as the game window opened.
-- **The released package** (with search on by default) has been through 20-run checks on a Mac and on Windows to
-  see that it plays to the end; 20 runs are too few to give a win rate, and no larger real-game measurement of it has
-  been made. The numbers above are not a measurement of the search.
+- **The released package** has been through 20-run checks on a Mac and on Windows to see that it plays to the end.
+  Since version 0.1.1 the search is off by default, as in the runs above. With `search = "1"` it plays stronger; no
+  large real-game measurement of that has been made, and the numbers above are not a measurement of the search.
 
 ## Limits
 
 - Ironclad only. Lower Ascension levels can be set in the package, but the model's play there has not been measured.
 - It knows the base game only: no modded cards, relics, monsters or events.
-- The search takes a few seconds at some steps in elite and boss fights.
+- With the search on, it takes a few seconds at some steps in elite and boss fights.
 - It sometimes ends a turn with energy and playable cards left, and sometimes plays a power that is already active
   a second time (Barricade, Corruption).
 - How the model was trained is not part of this release.
