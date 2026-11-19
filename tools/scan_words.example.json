@@ -1,0 +1,7 @@
+{
+ "private": ["/[Uu]sers/[a-z]+/", "\\bexample-user\\b", "example\\.invalid"],
+ "internal": ["\\bexample-internal\\b", "example-tool"],
+ "bad_names": ["\\.(cpp|h|hpp|patch|pt|autosave|run)$", "^desktop-1\\.0\\.jar$", "^example\\.jar$"],
+ "internal_binary": ["\\bexample-internal\\b", "example-tool"],
+ "third": ["/[Uu]sers/example-user/", "\\bexample-internal\\b"]
+}

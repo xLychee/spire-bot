@@ -1,0 +1,22 @@
+# Spire Bot settings. The bot reads this file each time the game starts it.
+
+# The model file in models/ (or a full path).
+model = "model.onnx"
+
+# Ascension level of the runs the bot starts (Ironclad). It must be unlocked in your profile.
+ascension = 20
+
+# Seed of the run, as the game shows it (for example "2ZYGG"). Empty: a random seed each time.
+seed = ""
+
+# The panel's thinking view (the five best options as bars, how sure the bot is, the curve of its own estimate).
+# "0": the plain three lines instead. F7 in the game switches between the two.
+viz = "1"
+
+# Search in elite and boss fights: when the bot is unsure, it tries its best few options on 16 copies of the fight
+# (the cards still to come drawn again, never the real ones) and plays the one that leaves it best off on average.
+# It thinks a few seconds at such a step. "0": the network alone everywhere.
+search = "1"
+# How a copy is judged at the fight's end: "value" (the network's own estimate of the run from there) or "ledger"
+# (HP, potions, gold and max HP at fixed prices per act).
+search_score = "value"

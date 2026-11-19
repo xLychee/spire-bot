@@ -1,0 +1,10 @@
+{
+  "modid": "spirebot",
+  "name": "Spire Bot",
+  "author_list": ["spire-bot"],
+  "description": "Companion of the Spire Bot bridge: with Surrounded, turns the player toward the target of CommunicationMod's play and potion commands, as the mouse does, tells the bridge the mod is loaded, and shows the bot's panel (F9 pause, F8 hide).",
+  "version": "0.4.0",
+  "sts_version": "12-18-2022",
+  "mts_version": "3.18.0",
+  "dependencies": ["basemod", "CommunicationMod"]
+}
