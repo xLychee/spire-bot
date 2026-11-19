@@ -1,11 +1,60 @@
+<p align="center">
+  <img src="docs/images/banner.svg" alt="Spire Bot: an AI that plays Slay the Spire by itself" width="100%">
+</p>
+
 # Spire Bot
 
 Spire Bot is a bot that plays Slay the Spire in your own copy of the game. You start the game with mods; the bot
-starts an Ironclad run from the main menu, plays it to the end by itself, and goes for the Heart.
+starts an Ironclad run from the main menu, plays it to the end by itself, and goes for the Heart. You get to sit back
+and watch it sweat.
 
 No game files are included. You need Slay the Spire on Steam.
 
+<p align="center">
+  <img src="docs/images/fight.gif" alt="The bot playing the Act 1 boss fight by itself, its panel in the top right corner" width="100%">
+</p>
+<p align="center"><sub>A whole Act 1 boss fight (Slime Boss, Ascension 20), played by the bot with nobody touching the
+keyboard, then the boss relic pick. Recorded from the game's own frames with this package on a Mac; sped up 2.5×.</sub></p>
+
+## What's in the corner?
+
+While it plays, the bot thinks out loud in a small panel: the moves it likes best, how sure it is, and how it feels
+about the run as a whole.
+
+<p align="center">
+  <img src="docs/images/panel.svg" alt="The panel during the boss fight above, with a note on each line" width="100%">
+</p>
+
+## How well does it play?
+
+Ascension 20 is the game's hardest difficulty, and the Heart is its true final boss. In the real game the bot killed
+the Heart in **65 of 220 first plays (29.5%)**, or **65 of the 215 runs that finished (30.2%)**. That was measured on
+a Mac with the SuperFastMode mod (it speeds up the game's animations), with an earlier build of this package and the same
+model weights, before the search in elite and boss fights was added; `MODEL_CARD.md` has the details.
+
+<p align="center">
+  <img src="docs/images/climb.svg" alt="Runs still going at each floor: 215 at the start, big drops at the act bosses, 65 Heart kills at the end" width="100%">
+</p>
+
+Where does it lose? Mostly to the bosses and elites, and most of all to the Heart itself:
+
+<p align="center">
+  <img src="docs/images/killers.svg" alt="The fight each of the 150 lost runs ended in: The Heart 19, The Collector, Hexaghost, Awakened One and Gremlin Leader 10 each" width="100%">
+</p>
+
 ## How it works
+
+```mermaid
+flowchart LR
+    G["Slay the Spire<br/>(ModTheSpire, BaseMod)"] -->|game state| C["Communication Mod"]
+    C -->|game state| B["bridge (Python)"]
+    B <-->|"follow the run,<br/>list the legal moves"| S["simulator (spire_sim)"]
+    B <-->|score every move| M["model.onnx"]
+    B -->|"command: play, choose, end turn…"| C
+    C -->|command| G
+    B -.->|what it is thinking| P["Spire Bot mod<br/>(the panel)"]
+    P -.-> G
+```
 
 - The game, with **ModTheSpire**, **BaseMod** and **Communication Mod**, reports the current game state and accepts
   commands.

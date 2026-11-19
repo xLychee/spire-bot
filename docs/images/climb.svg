@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="492" viewBox="0 0 960 492" role="img" aria-label="The climb: of 215 finished real-game runs, 65 killed the Heart" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+<title>The climb: of 215 finished real-game runs, 65 killed the Heart</title>
+<rect width="960" height="492" rx="12" fill="#16141b"/>
+<text x="32.0" y="46.0" font-size="24" fill="#f0efec" text-anchor="start" font-weight="650">The climb: 215 real runs, floor by floor</text>
+<text x="32.0" y="74.0" font-size="15" fill="#c3c2b7" text-anchor="start" font-weight="400">How many runs were still going at each floor. The big cliffs are the bosses.</text>
+<rect x="70.0" y="118" width="247.5" height="272" fill="#1d1a24"/>
+<text x="193.8" y="380.0" font-size="13" fill="#c3c2b7" text-anchor="middle" font-weight="600">Act 1</text>
+<text x="441.3" y="380.0" font-size="13" fill="#c3c2b7" text-anchor="middle" font-weight="600">Act 2</text>
+<rect x="565.1" y="118" width="247.5" height="272" fill="#1d1a24"/>
+<text x="688.9" y="380.0" font-size="13" fill="#c3c2b7" text-anchor="middle" font-weight="600">Act 3</text>
+<text x="856.3" y="380.0" font-size="13" fill="#c3c2b7" text-anchor="middle" font-weight="600">Act 4</text>
+<line x1="70" x2="900" y1="390.0" y2="390.0" stroke="#2e2b36" stroke-width="1"/>
+<text x="60.0" y="394.5" font-size="12" fill="#8f8c84" text-anchor="end" font-weight="400" font-variant-numeric="tabular-nums">0</text>
+<line x1="70" x2="900" y1="329.1" y2="329.1" stroke="#2e2b36" stroke-width="1"/>
+<text x="60.0" y="333.6" font-size="12" fill="#8f8c84" text-anchor="end" font-weight="400" font-variant-numeric="tabular-nums">50</text>
+<line x1="70" x2="900" y1="268.1" y2="268.1" stroke="#2e2b36" stroke-width="1"/>
+<text x="60.0" y="272.6" font-size="12" fill="#8f8c84" text-anchor="end" font-weight="400" font-variant-numeric="tabular-nums">100</text>
+<line x1="70" x2="900" y1="207.2" y2="207.2" stroke="#2e2b36" stroke-width="1"/>
+<text x="60.0" y="211.7" font-size="12" fill="#8f8c84" text-anchor="end" font-weight="400" font-variant-numeric="tabular-nums">150</text>
+<line x1="70" x2="900" y1="146.3" y2="146.3" stroke="#2e2b36" stroke-width="1"/>
+<text x="60.0" y="150.8" font-size="12" fill="#8f8c84" text-anchor="end" font-weight="400" font-variant-numeric="tabular-nums">200</text>
+<polygon points="70,390 70.0,128.0 84.6,128.0 84.6,128.0 99.1,128.0 99.1,128.0 113.7,128.0 113.7,128.0 128.2,128.0 128.2,128.0 142.8,128.0 142.8,128.0 157.4,128.0 157.4,132.9 171.9,132.9 171.9,135.3 186.5,135.3 186.5,135.3 201.1,135.3 201.1,135.3 215.6,135.3 215.6,140.2 230.2,140.2 230.2,148.7 244.7,148.7 244.7,149.9 259.3,149.9 259.3,153.6 273.9,153.6 273.9,153.6 288.4,153.6 288.4,153.6 303.0,153.6 303.0,175.5 317.5,175.5 317.5,175.5 332.1,175.5 332.1,175.5 346.7,175.5 346.7,175.5 361.2,175.5 361.2,175.5 375.8,175.5 375.8,176.7 390.4,176.7 390.4,178.0 404.9,178.0 404.9,185.3 419.5,185.3 419.5,193.8 434.0,193.8 434.0,203.6 448.6,203.6 448.6,203.6 463.2,203.6 463.2,208.4 477.7,208.4 477.7,213.3 492.3,213.3 492.3,217.0 506.8,217.0 506.8,217.0 521.4,217.0 521.4,218.2 536.0,218.2 536.0,218.2 550.5,218.2 550.5,243.8 565.1,243.8 565.1,243.8 579.6,243.8 579.6,243.8 594.2,243.8 594.2,243.8 608.8,243.8 608.8,243.8 623.3,243.8 623.3,243.8 637.9,243.8 637.9,243.8 652.5,243.8 652.5,252.3 667.0,252.3 667.0,253.5 681.6,253.5 681.6,258.4 696.1,258.4 696.1,258.4 710.7,258.4 710.7,258.4 725.3,258.4 725.3,259.6 739.8,259.6 739.8,260.8 754.4,260.8 754.4,262.0 768.9,262.0 768.9,262.0 783.5,262.0 783.5,262.0 798.1,262.0 798.1,270.6 812.6,270.6 812.6,281.5 827.2,281.5 827.2,281.5 841.8,281.5 841.8,281.5 856.3,281.5 856.3,281.5 870.9,281.5 870.9,287.6 885.4,287.6 885.4,310.8 900.0,310.8 900.0,390" fill="#e0703f" fill-opacity="0.22"/>
+<polyline points="70.0,128.0 84.6,128.0 84.6,128.0 99.1,128.0 99.1,128.0 113.7,128.0 113.7,128.0 128.2,128.0 128.2,128.0 142.8,128.0 142.8,128.0 157.4,128.0 157.4,132.9 171.9,132.9 171.9,135.3 186.5,135.3 186.5,135.3 201.1,135.3 201.1,135.3 215.6,135.3 215.6,140.2 230.2,140.2 230.2,148.7 244.7,148.7 244.7,149.9 259.3,149.9 259.3,153.6 273.9,153.6 273.9,153.6 288.4,153.6 288.4,153.6 303.0,153.6 303.0,175.5 317.5,175.5 317.5,175.5 332.1,175.5 332.1,175.5 346.7,175.5 346.7,175.5 361.2,175.5 361.2,175.5 375.8,175.5 375.8,176.7 390.4,176.7 390.4,178.0 404.9,178.0 404.9,185.3 419.5,185.3 419.5,193.8 434.0,193.8 434.0,203.6 448.6,203.6 448.6,203.6 463.2,203.6 463.2,208.4 477.7,208.4 477.7,213.3 492.3,213.3 492.3,217.0 506.8,217.0 506.8,217.0 521.4,217.0 521.4,218.2 536.0,218.2 536.0,218.2 550.5,218.2 550.5,243.8 565.1,243.8 565.1,243.8 579.6,243.8 579.6,243.8 594.2,243.8 594.2,243.8 608.8,243.8 608.8,243.8 623.3,243.8 623.3,243.8 637.9,243.8 637.9,243.8 652.5,243.8 652.5,252.3 667.0,252.3 667.0,253.5 681.6,253.5 681.6,258.4 696.1,258.4 696.1,258.4 710.7,258.4 710.7,258.4 725.3,258.4 725.3,259.6 739.8,259.6 739.8,260.8 754.4,260.8 754.4,262.0 768.9,262.0 768.9,262.0 783.5,262.0 783.5,262.0 798.1,262.0 798.1,270.6 812.6,270.6 812.6,281.5 827.2,281.5 827.2,281.5 841.8,281.5 841.8,281.5 856.3,281.5 856.3,281.5 870.9,281.5 870.9,287.6 885.4,287.6 885.4,310.8 900.0,310.8" fill="none" stroke="#e0703f" stroke-width="2.5" stroke-linejoin="round"/>
+<rect x="885.4" y="310.8" width="14.6" height="79.2" fill="#e3a21a" rx="2"/>
+<text x="908.0" y="315.8" font-size="22" fill="#e3a21a" text-anchor="start" font-weight="700">65</text>
+<text x="908.0" y="334.8" font-size="13" fill="#c3c2b7" text-anchor="start" font-weight="400">Heart</text>
+<text x="908.0" y="350.8" font-size="13" fill="#c3c2b7" text-anchor="start" font-weight="400">killed</text>
+<line x1="295.7" x2="295.7" y1="145.6" y2="123.6" stroke="#8f8c84" stroke-width="1"/>
+<text x="295.7" y="103.6" font-size="16" fill="#f0efec" text-anchor="middle" font-weight="700">−18</text>
+<text x="295.7" y="118.6" font-size="12" fill="#c3c2b7" text-anchor="middle" font-weight="400">Act 1 boss</text>
+<line x1="543.2" x2="543.2" y1="210.2" y2="188.2" stroke="#8f8c84" stroke-width="1"/>
+<text x="543.2" y="168.2" font-size="16" fill="#f0efec" text-anchor="middle" font-weight="700">−21</text>
+<text x="543.2" y="183.2" font-size="12" fill="#c3c2b7" text-anchor="middle" font-weight="400">Act 2 boss</text>
+<line x1="792.1" x2="792.1" y1="254.0" y2="232.0" stroke="#8f8c84" stroke-width="1"/>
+<text x="798.1" y="212.0" font-size="16" fill="#f0efec" text-anchor="end" font-weight="700">−16</text>
+<text x="798.1" y="227.0" font-size="12" fill="#c3c2b7" text-anchor="end" font-weight="400">Act 3: two bosses</text>
+<line x1="878.2" x2="878.2" y1="279.6" y2="257.6" stroke="#8f8c84" stroke-width="1"/>
+<text x="884.2" y="237.6" font-size="16" fill="#f0efec" text-anchor="end" font-weight="700">−19</text>
+<text x="884.2" y="252.6" font-size="12" fill="#c3c2b7" text-anchor="end" font-weight="400">The Heart</text>
+<line x1="70" x2="900" y1="390" y2="390" stroke="#8f8c84" stroke-width="1"/>
+<text x="77.3" y="408.0" font-size="12" fill="#8f8c84" text-anchor="middle" font-weight="400">1</text>
+<text x="208.3" y="408.0" font-size="12" fill="#8f8c84" text-anchor="middle" font-weight="400">10</text>
+<text x="353.9" y="408.0" font-size="12" fill="#8f8c84" text-anchor="middle" font-weight="400">20</text>
+<text x="499.6" y="408.0" font-size="12" fill="#8f8c84" text-anchor="middle" font-weight="400">30</text>
+<text x="645.2" y="408.0" font-size="12" fill="#8f8c84" text-anchor="middle" font-weight="400">40</text>
+<text x="790.8" y="408.0" font-size="12" fill="#8f8c84" text-anchor="middle" font-weight="400">50</text>
+<text x="892.7" y="408.0" font-size="12" fill="#8f8c84" text-anchor="middle" font-weight="400">57</text>
+<text x="485.0" y="426.0" font-size="12" fill="#8f8c84" text-anchor="middle" font-weight="400">floor</text>
+<text x="18.0" y="259.0" font-size="12" fill="#8f8c84" text-anchor="middle" font-weight="400" transform="rotate(-90 18 259.0)">runs still going</text>
+<text x="32.0" y="456.0" font-size="11.5" fill="#8f8c84" text-anchor="start" font-weight="400">Real game on a Mac, Ironclad, Ascension 20, 220 fixed seeds each played once, SuperFastMode on, bot without search.</text>
+<text x="32.0" y="474.0" font-size="11.5" fill="#8f8c84" text-anchor="start" font-weight="400">5 of the 220 runs stopped early (4 bot stops, 1 crash at launch) and are left out here: 65/215 = 30.2% of finished runs, 65/220 = 29.5% of all.</text>
+</svg>
